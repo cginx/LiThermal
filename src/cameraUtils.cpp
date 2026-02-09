@@ -26,7 +26,7 @@ bool CameraUtils::checkCameraConnection()
 void CameraUtils::setCameraIP()
 {
     system("ifconfig usb0 up");
-    system("ifconfig usb0 192.168.64.32");
+    system("ifconfig usb0 192.168.1.32");
 }
 
 void CameraUtils::initHTTPClient()

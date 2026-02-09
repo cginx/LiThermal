@@ -1,5 +1,5 @@
 #pragma once
-#define CAMERA_HOST_URL "http://192.168.64.64"
+#define CAMERA_HOST_URL "http://192.168.1.64"
 
 typedef struct temperature_point_t
 {
